@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Trello</title>
+    <link rel='stylesheet' href='styles.css' type='text/css' media='all'/>
+</head>
+<body>
+    <h1>Mini Trello</h1>
+    <ul id="list">
+    </ul>
+    <div id="edit" class="action">
+        <h4>Editar</h4>
+        <input type="hidden" class="id">
+        <input class="text" type="text" placeholder="Mensaje">
+        <input class="email" type="email" placeholder="Tu correo">
+        <button class="send">Editar</button>
+        <div class="loading">Cargando...</div>
+    </div>
+    <div id="add" class="action">
+        <h4>Adicionar</h4>
+        <input class="text" type="text" placeholder="Mensaje">
+        <input class="email" type="email" placeholder="Tu correo">
+        <button class="send">Enviar</button>
+        <div class="loading">Cargando...</div>
+    </div>
+    <script src="dist/bundle.js"></script>
+</body>
+</html>

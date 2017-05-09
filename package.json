@@ -1,0 +1,36 @@
+{
+  "name": "MiniTrello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server-start": "node ./dist/server/server.js",
+    "web-start": "lite-server",
+    "tsc": "tsc",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.0",
+    "restify": "^4.3.0",
+    "rx-http-request": "^1.2.0",
+    "rxjs": "^5.2.0",
+    "socket.io": "^1.7.3",
+    "systemjs": "^0.20.10",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "@types/es6-shim": "^0.31.32",
+    "@types/jquery": "^2.0.41",
+    "@types/restify": "^2.0.41",
+    "faker": "^4.1.0",
+    "gulp-typescript": "^3.1.5",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-stream": "^3.2.0"
+  }
+}
